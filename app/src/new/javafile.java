@@ -4,6 +4,17 @@ public class javafile {
     int var1;
     String Str;
     float f;
+
+    public String getStr1() {
+        return Str1;
+    }
+
+    public void setStr1(String str1) {
+        Str1 = str1;
+    }
+
+    String Str1
+
     javafile()
     {
 
