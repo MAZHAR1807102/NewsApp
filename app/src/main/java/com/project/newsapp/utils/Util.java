@@ -12,6 +12,8 @@ import android.view.WindowManager;
 import androidx.annotation.ColorInt;
 import androidx.annotation.ColorRes;
 
+import com.project.newsapp.activities.MainActivity;
+
 public class Util {
 
     public static final String APP_NAME = "NEWS_APP";
@@ -28,7 +30,7 @@ public class Util {
         }
     }
 
-    public static void setSystemBarLight(Activity act) {
+    public static void setSystemBarLight(MainActivity act) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             View view = act.findViewById(android.R.id.content);
             int flags = view.getSystemUiVisibility();
