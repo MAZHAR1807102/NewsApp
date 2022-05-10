@@ -3,18 +3,6 @@ public class javafile {
 
     int var1;
     String Str;
-    float f;
-
-    public String getStr1() {
-        return Str1;
-    }
-
-    public void setStr1(String str1) {
-        Str1 = str1;
-    }
-
-    String Str1
-
     javafile()
     {
 
@@ -32,12 +20,13 @@ public class javafile {
         this.var1 = var1;
     }
 
-    public float getF() {
-        return f;
+
+    public string getS2() {
+        return s2;
     }
 
-    public void setF(float f) {
-        this.f = f;
+    public void setS2(string s2) {
+        this.s2 = s2;
     }
 
     public void setStr(String str) {
